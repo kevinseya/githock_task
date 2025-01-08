@@ -11,7 +11,7 @@ Asegúrate de tener Python 3 y `pip` instalados. Si no tienes Flask o `pre-commi
 1. Clona el repositorio:
 
    ```bash
-   git clone <https://github.com/kevinseya/githock_task.git>
+   git clone <https://github.com/kevinseya/githook_task.git>
    cd <githock_task>
    ```
 2. Crea un entorno virtual
