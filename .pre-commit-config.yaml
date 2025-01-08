@@ -1,0 +1,7 @@
+repos:
+  - repo: local
+    hooks:
+      - id: check-comments
+        name: Check comments limit
+        entry: python check_comments.py
+        language: system
