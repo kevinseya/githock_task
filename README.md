@@ -52,6 +52,7 @@ Haz un cambio en el archivo app.py, por ejemplo, agregando más de 5 comentarios
     git commit -m "Probar el pre-commit con más de 5 comentarios"
  ```
 Si el archivo tiene más de 5 comentarios, verás un mensaje de error y el commit será detenido.
+![imagen](https://github.com/user-attachments/assets/943dc2da-3367-4c9b-9b0b-cd047e8ee47f)
 
 ## Estructura del Proyecto
    ```bash
