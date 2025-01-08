@@ -47,14 +47,14 @@ Este proyecto incluye un pre-commit hook que verifica el número de comentarios 
 
 ### Probar el Hook
 Haz un cambio en el archivo app.py, por ejemplo, agregando más de 5 comentarios, y luego intenta hacer un commit:
-    ```bash
+ ```bash
     git add app.py
     git commit -m "Probar el pre-commit con más de 5 comentarios"
-    ```
+ ```
 Si el archivo tiene más de 5 comentarios, verás un mensaje de error y el commit será detenido.
 
 ## Estructura del Proyecto
-    ```bash
+   ```bash
         mi-proyecto-flask/
         ├── app.py              # Código principal de la aplicación Flask
         ├── check_comments.py   # Script para verificar el número de comentarios
@@ -62,6 +62,6 @@ Si el archivo tiene más de 5 comentarios, verás un mensaje de error y el commi
         ├── .pre-commit-config.yaml  # Configuración del pre-commit hook
         ├── requirements.txt    # Dependencias del proyecto
         └── README.md           # Este archivo
-    ```
+   ```
 
 
